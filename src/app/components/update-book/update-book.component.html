@@ -1,0 +1,50 @@
+<mat-card>
+    <div class="component-container" fxLayout="column" fxFlex=100>
+        <form [formGroup]="updateFormGroup">
+            <div fxLayout="row">
+                <mat-card class="card-container"  fxFlex=100 fxFlex.xs=95 fxFlex.sm=90>
+                    <mat-toolbar fxLayoutAlign="space-between center">
+                        <header fxLayoutAlign="start">
+                            <h3>Update Book</h3>
+                        </header>
+            
+                        <div fxFlex="10" fxLayoutAlign="end"> <mat-icon matDialogClose color="accent">close</mat-icon></div>
+                    </mat-toolbar>
+                    <mat-divider></mat-divider>
+    
+                    <div class="sub-container" style="margin-top: 20px;" fxLayout="row" fxLayoutAlign="center">
+                        <div class="card-col-1" fxLayout="column" fxFlex=100 style="padding-right: 20px; margin: 15px;">
+                            
+                            <mat-form-field>
+                                <mat-label>Name</mat-label>
+                                <input formControlName="name" matInput placeholder="Enter Book Name">
+                            </mat-form-field>
+    
+                            <mat-form-field>
+                                <mat-label>Price</mat-label>
+                                <input formControlName="price" matInput placeholder="Enter Book Price">
+                            </mat-form-field>
+    
+                            <mat-form-field>
+                                <mat-label>Description</mat-label>
+                                <input formControlName="description" matInput placeholder="Enter Book Description">
+                            </mat-form-field>
+    
+                        </div>
+    
+                    </div>
+    
+                    <div class="add_type_btn_container" fxLayout="row" fxLayoutAlign="end" fxLayoutGap="10px"
+                        style="margin: 15px;">
+                        <button mat-raised-button color="primary" (click)="update()">Update</button>
+                        <button mat-stroked-button (click)="onNoClick()">Cancel</button>
+                    </div>
+    
+                </mat-card>
+    
+            </div>
+    
+        </form>
+    
+    </div>
+</mat-card>

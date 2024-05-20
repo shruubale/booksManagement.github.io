@@ -1,0 +1,34 @@
+.square-image{
+    margin: 10px;
+}
+
+table {
+	width: 100%;
+	background-color: var(--color-generic-white);
+}
+.option-heading{
+    padding-left: 50px;
+}
+tr:hover {
+   background-color: #eee;
+}
+td{
+    width: 25%;
+}
+.component-container{
+width: 50%;
+margin-left: 20%;
+margin-right: 20%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.edit-btn{
+    color: blue;
+}
+.delete-btn{
+    color: red;
+}
+
+.table-header-card{
+    margin: 20px;
+}

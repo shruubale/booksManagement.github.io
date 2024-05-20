@@ -1,0 +1,28 @@
+
+<div class="navigation" >
+  <header class="header" >
+    <h3>Book Managment</h3>
+    <nav>
+      <ul>
+        <li [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/" >Home</a></li>
+        <li [routerLinkActive]="'active'"><a routerLink="/book-list">Books</a></li>
+        <!-- <li><a routerLink="/add-book">Add Books</a></li> -->
+        <!-- <li><a routerLink="/contact">Contact</a></li> -->
+        <li [routerLinkActive]="'active'"><a routerLink="/about">About</a></li>
+
+
+        <!-- Fragment Routes -->
+        <!-- <li [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}"><a routerLink="" fragment="Home">Home</a></li>
+        <li [routerLinkActive]="'active'"><a routerLink="" fragment="Books">Books</a></li>
+        <li [routerLinkActive]="'active'"><a routerLink="" fragment="About">About</a></li> -->
+      </ul>
+
+      
+    </nav>
+  </header>
+</div>
+
+<!-- <app-home id="Home"></app-home>
+<app-book-list id="Books"></app-book-list>
+<app-about id="About"> </app-about> -->
+<router-outlet></router-outlet>

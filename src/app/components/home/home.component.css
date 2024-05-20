@@ -1,0 +1,84 @@
+aside {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(181, 231, 214); */
+  height: 100%;
+}
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.aside1 {
+  width: 50%;
+}
+
+.aside1 img{
+  height: 550px;
+  width: 600px;
+}
+.aside1 h4 {
+  text-align: center;
+}
+
+.aside2 {
+  width: 50%;
+}
+
+.aside2 h4 {
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+
+.aside2 p {
+  font-size: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aside2 a {
+  text-decoration: none;
+  color: black;
+}
+.aside2 span {
+  font-size: 55px;
+  color: brown;
+  font-style: italic;
+}
+
+button {
+  color: red;
+}
+.mat-raised-button {
+  color: aqua;
+}
+aside{
+  background-color: white;
+}

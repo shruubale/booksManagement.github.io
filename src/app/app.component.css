@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    margin: 5px 15px;
+  }
+  .header li {
+    display: inline-block;
+    margin: 10px;
+  }
+  .header a {
+    text-decoration: none;
+    color: black;
+  }
+  .header h3 {
+    font-weight: 500;
+    /* text-align: center; */
+    margin-top: 10px;
+    border: 2px solid yellowgreen;
+    /* padding: 5px; */
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(231, 89, 203), rgb(247, 139, 115));
+  }
+
+  .navigation{
+    background-color: rgb(171, 122, 217);
+    color: azure;
+    /* position: fixed; */
+    width: 100%;
+  }
+  .navigation a{
+    color: azure;
+    font-size: 20px;
+    margin:15px;
+  }
+
+  .navigation li :hover{
+    color: black;
+    font-weight: 500;
+    transition: ease-in-out 1000ms;
+  }
+
+/* nav{
+  position: fixed;
+  width: 100%;
+} */
